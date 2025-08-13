@@ -29,7 +29,7 @@ End-to-end Azure Data Warehouse pipeline using Data Factory, Databricks (Delta L
 - **Cloud-Native Solution**: Leverages Azure's managed services
 - **Production-Ready Design**: Error handling and monitoring included
 
-## 🛠️ Core Technologies
+## Core Technologies
 | Component              | Technology               | Purpose                          |
 |------------------------|--------------------------|----------------------------------|
 | **Data Ingestion**     | Azure Data Factory       | Extract and load raw data        |
