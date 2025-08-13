@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Databricks
+*.dbc
+.dbc/
+**/.databricks/
+**/.mlflow/
+
+# Logs & temp
+logs/
+tmp/
+*.log
+
+# Data files (avoid committing large raw data)
+data/
+bronze/
+silver/
+gold/
