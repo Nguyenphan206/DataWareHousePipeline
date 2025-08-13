@@ -3,11 +3,11 @@ End-to-end Azure Data Warehouse pipeline using Data Factory, Databricks (Delta L
 
 # Azure Data Warehouse Pipeline (Bronze-Silver-Gold Architecture)
 
-## Architecture Overview
+## I.Architecture Overview
 
 
 <img width="1746" height="978" alt="image" src="https://github.com/user-attachments/assets/acfe2bee-d68e-4ff2-ac92-af1693926155" />
-**End-to-end data flow from ingestion to analytics**
+End-to-end data flow from ingestion to analytics
 
 ### Pipeline Flow
 1. **Data Ingestion (Bronze Layer)**  
@@ -39,14 +39,14 @@ End-to-end Azure Data Warehouse pipeline using Data Factory, Databricks (Delta L
      
    <img width="3186" height="1576" alt="image" src="https://github.com/user-attachments/assets/5cbb4869-38d3-4713-a904-590f9a35c183" />
 
-## Project Value
+## II.Project Value
 - **Complete ETL Implementation**: Full pipeline from source to analytics-ready data
 - **Cost Efficiency**: Synapse views eliminate storage duplication
 - **Modern Architecture**: Lakehouse pattern with Bronze-Silver-Gold layers
 - **Cloud-Native Solution**: Leverages Azure's managed services
 - **Production-Ready Design**: Error handling and monitoring included
 
-## Core Technologies
+## III.Core Technologies
 | Component              | Technology               | Purpose                          |
 |------------------------|--------------------------|----------------------------------|
 | **Data Ingestion**     | Azure Data Factory       | Extract and load raw data        |
@@ -55,7 +55,7 @@ End-to-end Azure Data Warehouse pipeline using Data Factory, Databricks (Delta L
 | **Data Serving**       | Azure Synapse Analytics  | Virtual views for analytics      |
 | **Data Consumption**   | Power BI                 | Reporting and visualization      |
 
-## Key Components
+## IV.Key Components
 1. **Bronze Layer (Raw)**
    - Preserves original data structure
    - Historical data retention
@@ -71,7 +71,7 @@ End-to-end Azure Data Warehouse pipeline using Data Factory, Databricks (Delta L
    - Virtual views for analytics
    - Direct querying without data movement
 
-## Final Outputs
+## V.Final Outputs
 - Analytics-ready datasets in Synapse
 - Virtual views for business reporting
 - Power BI dashboards for data visualization
