@@ -4,8 +4,9 @@ End-to-end Azure Data Warehouse pipeline using Data Factory, Databricks (Delta L
 # Azure Data Warehouse Pipeline (Bronze-Silver-Gold Architecture)
 
 ## Architecture Overview
-<img width="1746" height="978" alt="image" src="https://github.com/user-attachments/assets/acfe2bee-d68e-4ff2-ac92-af1693926155" />
 
+
+<img width="1746" height="978" alt="image" src="https://github.com/user-attachments/assets/acfe2bee-d68e-4ff2-ac92-af1693926155" />
 *End-to-end data flow from ingestion to analytics*
 
 ### Pipeline Flow
